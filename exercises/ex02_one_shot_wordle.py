@@ -1,4 +1,4 @@
-"""EX02 - One Shot Wordle"""
+"""EX02 - One Shot Wordle!"""
 
 __author__ = "730461954"
 
@@ -8,7 +8,7 @@ guess: str = input(f"What is your {count}-letter guess? ")
 # this block of code has established a few initial variables
 
 while len(guess) != len(secret_word):
-    guess: str = input(f"That was not {count} letters! Try again: ")
+    guess = input(f"That was not {count} letters! Try again: ")
 # this block of code has ensured that the guess has the correct amount of characters
 
 ind_guess: int = int(len(guess) - len(guess))
