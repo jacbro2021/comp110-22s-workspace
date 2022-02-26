@@ -2,4 +2,4 @@
 print("hello,world")
 quiz: int = 100 
 print(quiz)
-print ("goodbye") 
+print("goodbye")
